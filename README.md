@@ -1,1 +1,1 @@
-# ERD TEST입니다
+# ERD TEST
