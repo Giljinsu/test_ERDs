@@ -1,0 +1,166 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -4,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Bicycle_Bom",
+        "comment": "",
+        "columns": [
+          {
+            "name": "Bicycle_Bom",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 73.91259765625,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "615aa951-4b66-4126-9373-990a679152f0"
+          },
+          {
+            "name": "Unique_ID",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.5185546875,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "3408f67b-fdeb-4e09-96c0-1467de554523"
+          },
+          {
+            "name": "Unique_ID_PARENT",
+            "comment": "",
+            "dataType": "VARCHAR(200)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 114.48046875,
+              "widthComment": 60,
+              "widthDataType": 89.29296875,
+              "widthDefault": 60
+            },
+            "id": "24b683c1-04c4-4552-b02b-179182b31e77"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 165,
+          "top": 113,
+          "zIndex": 36,
+          "widthName": 73.91259765625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "86650a11-72da-41ea-9252-e392933d67c3"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "86650a11-72da-41ea-9252-e392933d67c3",
+          "columnIds": [
+            "3408f67b-fdeb-4e09-96c0-1467de554523"
+          ],
+          "x": 575.7734375,
+          "y": 113,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "86650a11-72da-41ea-9252-e392933d67c3",
+          "columnIds": [
+            "24b683c1-04c4-4552-b02b-179182b31e77"
+          ],
+          "x": 595.7734375,
+          "y": 133,
+          "direction": "right"
+        },
+        "constraintName": "fk_bicycle_bom_to_bicycle_bom",
+        "visible": true,
+        "id": "574e6e85-c4a9-4da1-8ff6-c37707b2cdb9"
+      }
+    ]
+  }
+}
