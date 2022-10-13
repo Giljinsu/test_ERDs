@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -364,
+    "scrollTop": 0,
     "scrollLeft": 0,
-    "zoomLevel": 0.8,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -44,7 +44,7 @@
     "tables": [
       {
         "name": "MULTI_BOARD",
-        "comment": "",
+        "comment": "게시글",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -212,7 +212,7 @@
           "active": false,
           "left": 367.2857,
           "top": 709.8928,
-          "zIndex": 172,
+          "zIndex": 214,
           "widthName": 87.76953125,
           "widthComment": 60
         },
@@ -391,7 +391,7 @@
       },
       {
         "name": "UNIQUE_ID_INFO",
-        "comment": "",
+        "comment": "카테고리 연결",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -444,16 +444,16 @@
           "active": false,
           "left": 383.0001,
           "top": 518.4285,
-          "zIndex": 194,
+          "zIndex": 217,
           "widthName": 104.400390625,
-          "widthComment": 60
+          "widthComment": 84.5703125
         },
         "visible": true,
         "id": "efe71056-13df-4bbb-b798-32131adeec69"
       },
       {
         "name": "COMMENT_INFO",
-        "comment": "",
+        "comment": "댓글 연결",
         "columns": [
           {
             "name": "UNIQUE_ID",
@@ -506,7 +506,7 @@
           "active": false,
           "left": 383.75,
           "top": 1004.25,
-          "zIndex": 199,
+          "zIndex": 219,
           "widthName": 103.09912109375,
           "widthComment": 60
         },
